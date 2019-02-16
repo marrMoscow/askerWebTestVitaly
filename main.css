@@ -20,7 +20,7 @@ overflow: auto;
 }
 /*второй ров*/
 .first-person {
-
+margin-bottom:40px;
 }
 .first-person__image {
 margin-right:20px;
@@ -58,14 +58,43 @@ overflow:auto;
 }
 .time {
 	flex:1;
+
 }
 .time__p {
 	display:inline-block;
 	min-width: 30px
-	color:grey;
+	color:color:#AFAFAF;
  	font-size: 14px;
  	float:right;
  	text-align:right;
- 	max-width:50px;
+ 	max-width:70px;
  	overflow:auto;
+ 	font-weight: 500;
+ 	position: relative;
+}
+.time__p_color {
+	color:#AFAFAF;
+}
+/*второй ров*/
+.second-person__area {
+background:#636979;
+border-radius: 7px;
+padding-top:23px;
+padding-left: 16px;
+padding-right: 16px;
+overflow: auto;
+}
+.second-person__area_massage {
+color:#E9E9E9;
+font-weight: 500;
+overflow:auto;
+}
+.second-person__area_massage p {
+	overflow:auto;
+}
+/*---------------------------------------------*/
+.time__i {
+	display:inline-block;
+	margin-right:10px;
+	margin-top:3px;
 }
