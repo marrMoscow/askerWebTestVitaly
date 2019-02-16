@@ -83,6 +83,7 @@ padding-top:23px;
 padding-left: 16px;
 padding-right: 16px;
 overflow: auto;
+margin-bottom:40px;
 }
 .second-person__area_massage {
 color:#E9E9E9;
@@ -92,9 +93,42 @@ overflow:auto;
 .second-person__area_massage p {
 	overflow:auto;
 }
-/*---------------------------------------------*/
 .time__i {
 	display:inline-block;
 	margin-right:10px;
 	margin-top:3px;
 }
+/*TYPING ROW*/
+.typing {
+
+}
+.typing__figure_1 {
+width: 15px;
+height: 15px;
+background:#c1dceb;
+border-radius: 50%;
+margin-top:3px;
+}
+.typing__figure_2 {
+width: 15px;
+height: 15px;
+background:#63b3df;
+border-radius: 50%;
+margin-right: 5px;
+margin-left: 5px;
+margin-top:3px;
+}
+.typing__figure_3 {
+width: 15px;
+height: 15px;
+background:#0e91d7;
+border-radius: 50%;	
+margin-top:3px;
+}
+.typing__text {
+margin-left: 30px;
+font-size: 13px;
+color:#b6b7be;
+overflow:auto;
+}
+/*INPUT ROW*/
